@@ -35,3 +35,9 @@ P0.30  ->  GPIO_PIN(0, 30)  ->  ?
 P0.31  ->  GPIO_PIN(0, 31)  ->  ?
 SWCLK  ->  pad `LK3`
 SWDIO  ->  pad `IO2`
+
+
+Tries:
+i2c:
+25+26 or 26+25 can not read from addr 0x18 or 0x19
+same for 3+5,3+6,5+6,6+5,5+3,6+3
