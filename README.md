@@ -14,6 +14,9 @@ Our goal is to port [RIOT](http://www.github.com/RIOT-OS/RIOT) to the CK12
 06/20/2019 - just started
 09/16/2019 - connected Debugger and flashed RIOT -> base system incl. shell over RTT is working
 09/16/2019 - started to reverse engineer the pin mapping, see pinmap.md
+09/18/2019 - made some traces with the orignal firmware (see traces subdirectory) -> seems like we
+             are using two separate I2C busses
+09/18/2019 - pretty sure the watch is using a ssd1306-based display (I2C address fits)
 
 ## Code
 The RIOT branch containing the WIP code can be found here:
