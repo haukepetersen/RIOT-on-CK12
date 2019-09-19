@@ -5,7 +5,7 @@ P0.00  ->  GPIO_PIN(0, 00)  ->  XL1 (LF crystal, 32768kHz)
 P0.01  ->  GPIO_PIN(0, 01)  ->  XL2 (LF crystal, 32768kHz)
 P0.02  ->  GPIO_PIN(0, 02)  ->  vibration motor
 P0.03  ->  GPIO_PIN(0, 03)  ->  pad -> I2C_0 SDA
-P0.04  ->  GPIO_PIN(0, 04)  ->  ?
+P0.04  ->  GPIO_PIN(0, 04)  ->  analog?!
 P0.05  ->  GPIO_PIN(0, 05)  ->  pad -> I2C_0 SCL
 P0.06  ->  GPIO_PIN(0, 06)  ->  pad -> ?
 P0.07  ->  GPIO_PIN(0, 07)  ->  ?
@@ -29,9 +29,9 @@ P0.24  ->  GPIO_PIN(0, 24)  ->  ?
 P0.25  ->  GPIO_PIN(0, 25)  ->  pad -> I2C_1 SCL
 P0.26  ->  GPIO_PIN(0, 26)  ->  pad -> I2C_1 SDA
 P0.27  ->  GPIO_PIN(0, 27)  ->  ?
-P0.28  ->  GPIO_PIN(0, 28)  ->  ?
-P0.29  ->  GPIO_PIN(0, 29)  ->  ?
-P0.30  ->  GPIO_PIN(0, 30)  ->  ?
+P0.28  ->  GPIO_PIN(0, 28)  ->  analog?!
+P0.29  ->  GPIO_PIN(0, 29)  ->  analog?!
+P0.30  ->  GPIO_PIN(0, 30)  ->  analog?!
 P0.31  ->  GPIO_PIN(0, 31)  ->  ?
 SWCLK  ->  pad `LK3`
 SWDIO  ->  pad `IO2`
